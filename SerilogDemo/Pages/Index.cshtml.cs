@@ -15,7 +15,7 @@ namespace SerilogDemo.Pages
 
         public void OnGet()
         {
-            _logger.LogInformation("You requested the Index page");
+            _logger.LogInformation("You requested the Index page.");
 
             try
             {
